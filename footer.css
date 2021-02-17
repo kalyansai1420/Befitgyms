@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+.copyrights{
+    width: 100%;
+    color: white;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    align-items: center ;
+    height: 30px;
+}
+
+.footer{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    background-color: #000;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo>img{
+    height: 40px;
+    object-fit: contain;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_nav>h1{
+    color:#CD0505;
+    font-size: 24px;
+}
+
+.nav_options>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social_media>h1{
+    color:#CD0505; 
+    font-size: 24px;
+}
+/* Facebook */
+.fa-facebook{
+    font-size: 25px !important;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  /*instagram*/
+.fa-instagram{
+    font-size: 25px !important;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+  /*whatsapp*/
+  .fa-whatsapp{
+    font-size: 25px !important;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .fa-phone{
+    font-size: 25px !important;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width:800px){
+    .footer{
+        margin-top: 50px;
+    }
+  }
+
+  @media (max-width:500px){
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .nav_options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+  }
